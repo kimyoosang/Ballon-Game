@@ -1,6 +1,5 @@
 import { Position } from '@/types';
 
-// Grid 생성 함수
 export const createGrid = <T>(size: number, createCell: () => T): T[][] =>
   Array.from({ length: size }, () => Array.from({ length: size }, createCell));
 

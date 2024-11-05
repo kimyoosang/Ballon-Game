@@ -1,4 +1,3 @@
-// src/hooks/balloon-game/__tests__/useBalloonGame.test.ts
 import { BalloonGrid } from '@/types';
 import { act, renderHook } from '@testing-library/react';
 import {
