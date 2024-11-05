@@ -3,5 +3,9 @@
   "editor.insertSpaces": true,
   "editor.formatOnSave": true,
   "eslint.format.enable": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "explicit",
+    "source.organizeImports": "explicit"
+  }
 }
