@@ -1,11 +1,12 @@
-import React from 'react';
+import BalloonGrid from './components/ballon-game/BalloonGrid';
 
 function App() {
   return (
-    <div className='bg-gray -100 min-h-screen'>
-      <h1 className='border-2 border-red-400 py-4 text-center text-3xl font-bold'>
+    <div className='flex min-h-screen flex-col items-center bg-gray-100 py-8'>
+      <h1 className='mb-8 text-center text-3xl font-bold'>
         풍선 터트리기 게임
       </h1>
+      <BalloonGrid />
     </div>
   );
 }
